@@ -1,72 +1,83 @@
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .footer {
-	position: fixed;
-    bottom: 0;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #1abc9c;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1abc9c;
 }
 
 .footer p {
-	margin-top: 25px;
-	font-size: 14px;
+  margin-top: 25px;
+  font-size: 14px;
   color: #fff;
 }
 
-
 /* Compose Css */
 .compose_form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.compose_form label{
-    margin-top: 1rem;
-    font-size: 16px;
+.compose_form label {
+  margin-top: 1rem;
+  font-size: 16px;
 }
 
 .compose_text {
-    padding: 1rem;
-    border-radius: 0.5rem;
-    outline: none;
-    border: 1px solid #767676;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 1px solid #767676;
 }
 
 .compose_btn {
-    margin-top: 2rem;
-    width: 10%;
-    padding: 1.2rem 2.5rem;
-    text-align: center;
-    background-color: rgb(77, 77, 161);
-    color: #fff;
-    border: 0;
-    font-size: 15px;
-    border-radius: 0.5rem;
-    transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+  width: 10%;
+  padding: 1.2rem 2.5rem;
+  text-align: center;
+  background-color: rgb(77, 77, 161);
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .compose_btn:hover {
-    background-color: rgb(71, 71, 200);
+  background-color: rgb(71, 71, 200);
 }

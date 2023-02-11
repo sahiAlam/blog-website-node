@@ -6,9 +6,9 @@
 </p>
 <% posts.forEach((post) => { %>
     <div>
-        <h1>
+        <h2>
             <%= post.composeText %>
-        </h1>
+        </h2>
         <p>
             <%= post.composePost.substring(0, 100) + "..." %>
             <a href="/posts/<%=post.composeText%>">Read More</a>
