@@ -35,10 +35,6 @@ app.get("/compose", (req, res) => {
   res.render("compose");
 });
 
-app.get("*", (req, res) => {
-  res.render("error");
-});
-
 app.get("/posts/:postName", (req, res) => {
   const requestedTitle = _.lowerCase(req.params.postName);
 
@@ -48,12 +44,16 @@ app.get("/posts/:postName", (req, res) => {
     if(postTitle === requestedTitle) {
       res.render("post", {
         postTitle: post.composeText,
-        postContent: post.postContent
+        postContent: post.composePost
       })
     }
   });
 });
 
+
+app.get("*", (req, res) => {
+  res.render("error");
+});
 
 
 
@@ -68,8 +68,6 @@ app.post("/compose", (req, res) => {
   
   res.redirect("/");
 });
-
-
 
 
 
