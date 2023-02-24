@@ -3,7 +3,8 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  color: #b81313;
 }
 p {
   font-size: 18px;
@@ -93,4 +94,34 @@ p {
 }
 .error_page_container img{
   width: 60%;
+}
+
+
+.post_container {
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.navbar_brand:hover {
+  text-decoration: none;
+  color: none;
+}
+
+
+
+/* responsive */
+@media (max-width: 992px) {
+  .compose_btn {
+    width: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .compose_btn {
+    width: 25%;
+  }
+}
+@media (max-width: 430px) {
+  .compose_btn {
+    width: 40%;
+  }
 }

@@ -5,13 +5,14 @@
     <%= homeStartingContent %>
 </p>
 <% posts.forEach((post) => { %>
-    <div>
+    <div class="post_container">
         <h2>
-            <%= post.composeText %>
+            <%= post.title %>
         </h2>
         <p>
-            <%= post.composePost.substring(0, 100) + "..." %>
-            <a href="/posts/<%=post.composeText%>">Read More</a>
+            <%= post.title.substring(0, 100) + "..." %>
+            <%= post.content %>
+            <a href="/posts/<%=post._id%>">Read More</a>
         </p>
     </div>
 <% }) %>
